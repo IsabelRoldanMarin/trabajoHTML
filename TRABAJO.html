@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores</title>
+    <link rel="shortcut icon" href="logo de la pag.png" />
+</head>
+
+<body>
+    <h1>Plantas apestosas<img src="logo de la pag.png" width="100" height="100" align="right"></h1>
+    <h2>Tenemos dos tipos</h2>
+    <li><em>Rafflesia:</em> Flor mas grande del mundo</li>
+    <li><em>Stapelia:</em> Flor procedente de los cactus</li>
+    <li><em>Hydnora africana:</em> Crece bajo tierra</li>
+    <p><strong>Links para mas información</strong></p>
+    <a href="rafflesia.html" target="blank"> <input type="button" value="Rafflesia"></a>
+    <a href="https://es.wikipedia.org/wiki/Stapelia"> <input type="button" value="Stapelia"></a>
+    <!--<input type="button" value="Stapelia">
+    <input type="button" value="Hydnora africana">!-->
+    <p></p>
+    <table border="6">
+        <caption>Resumen</caption>
+        <tr>
+            <th>Rafflesia</th>
+            <th>Stapelia</th>
+            <th>Hydnora</th>
+        </tr>
+        <tr>
+            <td>La mas grande</td>
+            <td>Procede de cactus</td>
+            <td>Bajo tierra</td>
+        </tr>
+        <tr>
+            <td>Asia</td>
+            <td>Africa</td>
+            <td>Africa</td>
+        </tr>
+        <td colspan="3" align="center">Todas apestan</td>
+    </table>
+    <h3>Formulario final</h3>
+    <form action="showthread.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" required placeholder="obligatorio"> </p>
+        <p>Año de nacimiento: <input type="number" name="fecha" min="1930"></p>
+        <p>Fecha: <input type="date" name="fecha"></p>
+        <p>Planta favorita
+            <input type="radio" name="flor" value="r"> Rafflesia
+            <input type="radio" name="flor" value="s"> Stapelia
+            <input type="radio" name="flor" value="h"> Hydnora
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+    <hr>
+    <footer>Isabel Roldan</footer>
+</body>
+</html>
